@@ -1,0 +1,433 @@
+*
+{
+margin: 0;
+}
+.header
+{
+    position: relative;
+    width:2000px ;
+    height: 1060px;
+    background-image: url(./img/789.png);
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+.over
+{
+    position: absolute;
+    opacity: 0.3;
+    background-color: black;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.header_circlelogobeer
+{
+    position: relative;
+    z-index: 2;
+    width: 157px;
+    height: 157px;
+    margin-top: 50px;
+    margin-left: 46%;
+}
+.header_maindetail
+{
+    z-index: 2;
+    display: flex;
+    margin-top: 166px;
+    margin-left: 670px;
+}
+.header_maindetail-content
+{
+    color: white;
+    font-size: 50px;
+    z-index: 2;
+}
+.header_maindetail-straightline
+{
+    z-index: 2;
+    width: 250px;
+    height: 5px;
+    background-color:#cdb378 ;
+    margin: auto 10px;
+}
+.header_extradetail-content
+{
+    position: relative;
+    z-index: 2;
+    font-size: 35px;
+    color: white;
+    margin-left: 670px;
+    margin-top: 20px;
+}
+.header_extradetail-author
+{
+    position: relative;
+    z-index: 2;
+    font-size: 25px;
+    color: #cdb378;
+    margin-left: 900px;
+    margin-top: 20px;
+    font-style: italic;
+}
+.header_extradetail-scroll
+{
+    position: relative;
+    z-index: 2;
+    font-size: 22px;
+    color: #cdb378;
+    margin-left: 910px;
+    margin-top: 370px;
+    font-style: italic;
+}
+.fa-chevron-down
+{
+    position: relative;
+    z-index: 2;
+    font-size: 26px;
+    color: #cdb378;
+    margin-left: 980px;
+    margin-top: 20px;
+}
+.content
+{
+    position: relative;
+    width: 2000px;
+    height: 5225px;
+    background-repeat: no-repeat;
+    background-image: url(./img/photo_beerjoyney.png);
+    background-size: 100% 100%;
+}
+.content_header-joymain
+{
+    color:white;
+    font-size: 65px;
+    margin-left: 215px;
+    padding-top: 90px;
+    letter-spacing: 2px;
+}
+.content_header-joyextra
+{
+    color:#cdb378 ;
+    font-size: 21.5px;
+    margin-left: 220px;
+    margin-top: 10px;
+    letter-spacing: 0.5px;
+}
+.content_header-imgmanbeer
+{
+    position: absolute;
+    width: 585px;
+    height: 630px;
+    right: 0px;
+    top:-35px
+}
+.content_header-imglogozarubeer
+{
+    position: absolute;
+    width: 1875px;
+    height: 800px;
+    top:200px;
+    z-index: 1;
+}
+.content_header-imgbeerbottle
+{
+    position: absolute;
+    width: 210px;
+    height: 915px;
+    top:65px;
+    right: 480px;
+    z-index: 1;
+}
+.content_header-zeusmain
+{
+    position: absolute;
+    top:430px;
+    color:#cdb378 ;
+    font-size: 78px;
+    left:220px;
+    z-index: 1;
+}
+.content_header-zeusextra
+{
+    width:920px;
+    position: absolute;
+    top:565px;
+    color:#ebebeb ;
+    font-size: 21.5px;
+    left:220px;   
+    line-height: 40px;
+   letter-spacing: 1px;
+   z-index: 1;
+}
+.content_header-button
+{
+    position: absolute;
+    width: 225px;
+    height: 55px;
+    left: 220px;
+    top: 695px;
+    color:white;
+    background-color: #19190d;
+    border: 2px solid #41452c;
+    cursor: pointer;
+    font-size: 17px;
+    z-index: 1;
+}
+.content_body-imgdrinkbeer
+{
+    position: absolute;
+    width: 2000px;
+    height: 890px;
+    top: 852px;
+}
+.content_body-imgcirclebeer
+{
+    position: absolute;
+    width: 980px;
+    height: 1010px;
+    right: 0;
+    top:1590px
+}
+.content_body-main
+{
+position: absolute;
+left: 180px ;
+top:1790px;
+font-size: 80px;
+color:#cdb378;
+}
+.content_body-extra1
+{
+position: absolute;
+left: 180px ;
+top:2140px;
+font-size: 21px;
+width:680px;
+color:white;
+line-height: 30px;
+letter-spacing: 1px;
+text-align: justify;
+}
+.content_body-extra2
+{
+position: absolute;
+left: 180px ;
+top:2330px;
+font-size: 21px;
+width:680px;
+color:white;
+line-height: 30px;
+letter-spacing: 1px;
+text-align: justify;
+}
+.content_footer-main
+{
+    position: absolute;
+    left: 495px ;
+    top: 2785px;
+    font-size: 73px;
+    color:#cdb378;
+}
+.content_footer-extra
+{
+    position: absolute;
+    top: 2895px;
+    left: 815px;
+    font-size: 23px;
+    width:517px;
+    color:#cdb378;
+    line-height: 30px;
+    text-align: justify;
+}
+.content_footer-button
+{
+    position: absolute;
+    top: 2975px;
+    width: 215px;
+    height: 55px;
+    left: 895px;
+    color:white;
+    background-color: #19190d;
+    border: 2px solid #41452c;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+@media screen and (max-width:739px) {
+    .header
+     {
+        width:739px ;
+        height: 392px;
+        
+     }
+    .header_circlelogobeer
+     {
+     width: 58px;
+     height: 58px;
+     margin-top: 18px;
+     }
+    .header_maindetail
+     {
+     margin-top: 61px;
+     margin-left: 230px;
+     }
+    .header_maindetail-content
+     {
+     font-size: 18px;
+     }
+    .header_maindetail-straightline
+     {
+     width: 92px;
+     height: 2px;
+     }
+    .header_extradetail-content
+     {
+     font-size: 13px;
+     margin-left: 245px;
+     margin-top: 7px;
+     }
+    .header_extradetail-author
+     {
+     font-size: 9px;
+     margin-left: 333px;
+     margin-top: 7px;
+     }
+    .header_extradetail-scroll
+     {
+   
+     font-size: 8px;
+     margin-left: 336px;
+     margin-top: 137px;
+     }
+    .fa-chevron-down
+     {
+     font-size: 10px;
+     margin-left: 362px;
+     margin-top: 7px;
+     }
+    .content
+     {
+     width: 739px;
+     height: 1930px;
+     
+     }
+    .content_header-joymain
+     {
+     font-size: 24px;
+     margin-left: 79px;
+     padding-top: 33px;
+     }
+    .content_header-joyextra
+     {
+     width:600px;
+     font-size: 8px;
+     margin-left: 81px;
+     margin-top: 4px;
+     }
+    .content_header-imgmanbeer
+     {
+     position: absolute;
+     width: 216px;
+     height: 233px;
+     right: 0px;
+     top:-15px
+     }
+    .content_header-imglogozarubeer
+     {
+     width: 693px;
+     height: 296px;
+     top:74px;
+     z-index: 1;
+     }
+    .content_header-imgbeerbottle
+     {
+     
+     width: 78px;
+     height: 338px;
+     top:24px;
+     right: 177px;
+     }
+    .content_header-zeusmain
+     {
+     top:159px;
+     color:#cdb378 ;
+     font-size: 29px;
+     left:81px;
+     }
+    .content_header-zeusextra
+     {
+     width:350px;
+     top:209px;
+     font-size: 8px;
+     left:81px;   
+     line-height: 15px;
+     }
+    .content_header-button
+     {
+     width: 83px;
+     height: 20px;
+     left: 81px;
+     top: 257px;
+     font-size: 6px;
+    }
+    .content_body-imgdrinkbeer
+     {
+     width: 739px;
+     height: 329px;
+     top: 315px;
+     }
+    .content_body-imgcirclebeer
+     {
+     width: 362px;
+     height: 373px;
+     right: 0;
+     top:588px
+     }
+    .content_body-main
+     {
+     left: 67px ;
+     top:661px;
+     font-size: 30px;
+     }
+    .content_body-extra1
+     {
+     left: 67px ;
+     top:791px;
+     font-size: 8px;
+     width:251px;
+     line-height: 11px;
+     }
+    .content_body-extra2
+     {
+     left: 67px ;
+     top:870px;
+     font-size: 8px;
+     width:251px;
+     line-height: 11px;
+     }
+    .content_footer-main
+     {
+     left: 183px ;
+     top: 1030px;
+     font-size: 27px;
+     }
+    .content_footer-extra
+     {
+     top: 1070px;
+     left: 301px;
+     font-size: 8px;
+     width:191px;
+     line-height: 11px;
+     }
+    .content_footer-button
+     {
+     top: 1099px;
+     width: 79px;
+     height: 20px;
+     left: 331px;
+     font-size: 7px;
+    }
+}
