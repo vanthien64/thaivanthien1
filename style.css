@@ -426,14 +426,14 @@ font-family: 'amiri';
      }
     .content_footer-main
      {
-     left: 110px ;
+     left: 39% ;
      top: 500px;
      font-size: 10px;
      }
     .content_footer-extra
      {
      top: 520px;
-     left: 157px;
+     left: 50%;
      font-size: 3px;
      width:191px;
      line-height: 4px;
@@ -443,7 +443,7 @@ font-family: 'amiri';
      top: 530px;
      width: 40px;
      height: 12px;
-     left: 160px;
+     left: 52%;
      font-size: 3px;
      border: 0.5px solid #404429;
     }
