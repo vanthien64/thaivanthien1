@@ -2,10 +2,15 @@
 {
 margin: 0;
 }
+.testproject
+{
+    overflow: hidden;
+}
 .header
 {
     position: relative;
-    width:2000px ;
+    max-width: 2000px;
+    width:100% ;
     height: 1060px;
     background-image: url(./img/789.png);
     background-repeat:no-repeat;
@@ -35,14 +40,15 @@ margin: 0;
 {
     z-index: 2;
     display: flex;
-    margin-top: 166px;
-    margin-left: 670px;
+    margin-top: 175px;
+    margin-left: 25%;
 }
 .header_maindetail-content
 {
     color: white;
-    font-size: 50px;
+    font-size: 70px;
     z-index: 2;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .header_maindetail-straightline
 {
@@ -50,7 +56,7 @@ margin: 0;
     width: 250px;
     height: 5px;
     background-color:#cdb378 ;
-    margin: auto 10px;
+    margin: auto 5px;
 }
 .header_extradetail-content
 {
@@ -58,8 +64,9 @@ margin: 0;
     z-index: 2;
     font-size: 35px;
     color: white;
-    margin-left: 670px;
+    margin-left: 26%;
     margin-top: 20px;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .header_extradetail-author
 {
@@ -67,34 +74,35 @@ margin: 0;
     z-index: 2;
     font-size: 25px;
     color: #cdb378;
-    margin-left: 900px;
+    margin-left: 47%;
     margin-top: 20px;
     font-style: italic;
+    font-family: 'amiri';
 }
 .header_extradetail-scroll
 {
     position: relative;
     z-index: 2;
-    font-size: 22px;
+    font-size: 20px;
     color: #cdb378;
-    margin-left: 910px;
-    margin-top: 370px;
+    margin-left: 48%;
+    margin-top: 310px;
     font-style: italic;
+    font-family: 'Amiri', serif;;
 }
 .fa-chevron-down
 {
     position: relative;
     z-index: 2;
-    font-size: 26px;
+    font-size: 24px;
     color: #cdb378;
-    margin-left: 980px;
-    margin-top: 20px;
+    margin-left:52%;
 }
 .content
 {
     position: relative;
-    width: 2000px;
-    height: 5225px;
+    width: 100%;
+    height: 3950px;
     background-repeat: no-repeat;
     background-image: url(./img/photo_beerjoyney.png);
     background-size: 100% 100%;
@@ -102,165 +110,177 @@ margin: 0;
 .content_header-joymain
 {
     color:white;
-    font-size: 65px;
-    margin-left: 215px;
-    padding-top: 90px;
+    font-size: 45px;
+    margin-left: 100px;
+    padding-top: 50px;
     letter-spacing: 2px;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .content_header-joyextra
 {
     color:#cdb378 ;
-    font-size: 21.5px;
-    margin-left: 220px;
+    font-size: 14px;
+    margin-left: 100px;
     margin-top: 10px;
     letter-spacing: 0.5px;
+    font-family: 'amiri';
 }
 .content_header-imgmanbeer
 {
     position: absolute;
-    width: 585px;
-    height: 630px;
+    width: 375px;
+    height: 430px;
     right: 0px;
     top:-35px
 }
 .content_header-imglogozarubeer
 {
     position: absolute;
-    width: 1875px;
-    height: 800px;
-    top:200px;
+    width: 95%;
+    height: 560px;
+    top:120px;
     z-index: 1;
 }
 .content_header-imgbeerbottle
 {
     position: absolute;
-    width: 210px;
-    height: 915px;
-    top:65px;
-    right: 480px;
+    width: 160px;
+    height: 630px;
+    top:40px;
+    right: 295px;
     z-index: 1;
 }
 .content_header-zeusmain
 {
     position: absolute;
-    top:430px;
+    top:280px;
     color:#cdb378 ;
-    font-size: 78px;
-    left:220px;
+    font-size: 55px;
+    left:100px;
     z-index: 1;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .content_header-zeusextra
 {
-    width:920px;
+    width:680px;
     position: absolute;
-    top:565px;
-    color:#ebebeb ;
-    font-size: 21.5px;
-    left:220px;   
+    top:360px;
+    color:#ebebeb;
+    font-size: 14px;
+    left:100px;   
     line-height: 40px;
    letter-spacing: 1px;
    z-index: 1;
+   font-family: 'amiri';
 }
 .content_header-button
 {
     position: absolute;
-    width: 225px;
-    height: 55px;
-    left: 220px;
-    top: 695px;
+    width: 175px;
+    height: 45px;
+    left: 100px;
+    top: 460px;
     color:white;
-    background-color: #19190d;
-    border: 2px solid #41452c;
+    background-color: #272a18;
+    border: 2px solid #404429;
     cursor: pointer;
-    font-size: 17px;
+    font-size: 12px;
     z-index: 1;
+    font-family: 'amiri';
 }
 .content_body-imgdrinkbeer
 {
     position: absolute;
-    width: 2000px;
-    height: 890px;
-    top: 852px;
+    width: 100%;
+    height: 690px;
+    top: 576px;
 }
 .content_body-imgcirclebeer
 {
     position: absolute;
-    width: 980px;
-    height: 1010px;
+    width: 650px;
+    height: 700px;
     right: 0;
-    top:1590px
+    top:1140px
 }
 .content_body-main
 {
 position: absolute;
-left: 180px ;
-top:1790px;
-font-size: 80px;
+left: 130px ;
+top:1280px;
+font-size: 60px;
 color:#cdb378;
+font-family: 'Cinzel Decorative', cursive;
+
 }
 .content_body-extra1
 {
 position: absolute;
-left: 180px ;
-top:2140px;
-font-size: 21px;
-width:680px;
-color:white;
+left: 130px ;
+top:1580px;
+font-size: 14px;
+width:500px;
+color:#b4ba98;
 line-height: 30px;
 letter-spacing: 1px;
+font-family: 'amiri';
 text-align: justify;
 }
 .content_body-extra2
 {
 position: absolute;
-left: 180px ;
-top:2330px;
-font-size: 21px;
-width:680px;
-color:white;
+left: 130px ;
+top:1780px;
+font-size: 14px;
+width:500px;
+color:#b4ba98;
 line-height: 30px;
-letter-spacing: 1px;
+letter-spacing: 1.1px;
 text-align: justify;
+font-family: 'amiri';
 }
 .content_footer-main
 {
     position: absolute;
-    left: 495px ;
-    top: 2785px;
-    font-size: 73px;
+    left: 320px;
+    top: 2000px;
+    font-size: 50px;
     color:#cdb378;
+    font-family: 'Cinzel Decorative', cursive;
 }
 .content_footer-extra
 {
     position: absolute;
-    top: 2895px;
-    left: 815px;
-    font-size: 23px;
+    top: 2080px;
+    left: 550px;
+    font-size: 16px;
     width:517px;
     color:#cdb378;
     line-height: 30px;
     text-align: justify;
+    font-family: 'amiri';
 }
 .content_footer-button
 {
     position: absolute;
-    top: 2975px;
-    width: 215px;
-    height: 55px;
-    left: 895px;
+    top: 2140px;
+    width: 160px;
+    height: 45px;
+    left: 600px;
     color:white;
-    background-color: #19190d;
-    border: 2px solid #41452c;
+    background-color: #1a190e;
+    border: 2px solid #404429;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 12px;
+    font-family: 'amiri';
 
 }
 
 @media screen and (max-width:739px) {
     .header
      {
-        width:739px ;
-        height: 392px;
+        width:100% ;
+        height: 300px;
         
      }
     .header_circlelogobeer
@@ -271,163 +291,160 @@ text-align: justify;
      }
     .header_maindetail
      {
-     margin-top: 61px;
-     margin-left: 230px;
+     margin-top: 48px;
+     margin-left: 31.5%;
      }
     .header_maindetail-content
      {
-     font-size: 18px;
+     font-size: 16px;
      }
     .header_maindetail-straightline
      {
-     width: 92px;
+     width: 42px;
      height: 2px;
      }
     .header_extradetail-content
      {
-     font-size: 13px;
-     margin-left: 245px;
+     font-size: 7.2px;
      margin-top: 7px;
+     margin-left: 31.5%;
      }
     .header_extradetail-author
      {
-     font-size: 9px;
-     margin-left: 333px;
+     font-size: 6px;
      margin-top: 7px;
      }
     .header_extradetail-scroll
      {
-   
-     font-size: 8px;
-     margin-left: 336px;
-     margin-top: 137px;
+     font-size: 6px;
+     margin-top: 60px;
+     margin-left: 45%;
      }
     .fa-chevron-down
      {
-     font-size: 10px;
-     margin-left: 362px;
-     margin-top: 7px;
+     font-size: 5px;
+     margin-left: 50%;
      }
     .content
      {
-     width: 739px;
-     height: 1930px;
-     
+     width: 100%;
+     height: 1000px;
      }
     .content_header-joymain
      {
-     font-size: 24px;
-     margin-left: 79px;
-     padding-top: 33px;
+     font-size: 7px;
+     margin-left: 40px;
+     padding-top: 30px;
      }
     .content_header-joyextra
      {
-     width:600px;
-     font-size: 8px;
-     margin-left: 81px;
+     width:150px;
+     font-size: 4px;
+     margin-left: 40px;
      margin-top: 4px;
      }
     .content_header-imgmanbeer
      {
      position: absolute;
-     width: 216px;
-     height: 233px;
+     width: 140px;
+     height: 150px;
      right: 0px;
      top:-15px
      }
     .content_header-imglogozarubeer
      {
-     width: 693px;
-     height: 296px;
-     top:74px;
+     width: 90%;
+     height: 150px;
+     top:50px;
      z-index: 1;
      }
     .content_header-imgbeerbottle
      {
-     
-     width: 78px;
-     height: 338px;
-     top:24px;
-     right: 177px;
+     width: 38px;
+     height: 180px;
+     top:12px;
+     right: 120px;
      }
     .content_header-zeusmain
      {
-     top:159px;
-     color:#cdb378 ;
-     font-size: 29px;
-     left:81px;
+     top:95px;
+     font-size: 10px;
+     left:40px;
      }
     .content_header-zeusextra
      {
-     width:350px;
-     top:209px;
-     font-size: 8px;
-     left:81px;   
-     line-height: 15px;
+     width:150px;
+     top:115px;
+     font-size: 4px;
+     left:40px;   
+     line-height: 6px;
+     text-align: justify;
      }
     .content_header-button
      {
-     width: 83px;
-     height: 20px;
-     left: 81px;
-     top: 257px;
-     font-size: 6px;
+     width: 50px;
+     height: 15px;
+     left: 40px;
+     top: 145px;
+     font-size: 3px;
+     border: 0.5px solid #404429;
     }
     .content_body-imgdrinkbeer
      {
-     width: 739px;
-     height: 329px;
-     top: 315px;
+     width: 100%;
+     height: 150px;
+     top: 173px;
      }
     .content_body-imgcirclebeer
      {
-     width: 362px;
-     height: 373px;
+     width: 180px;
+     height: 180px;
      right: 0;
-     top:588px
+     top:295px
      }
     .content_body-main
      {
-     left: 67px ;
-     top:661px;
-     font-size: 30px;
+     left: 40px ;
+     top:335px;
+     font-size: 10px;
      }
     .content_body-extra1
      {
-     left: 67px ;
-     top:791px;
-     font-size: 8px;
-     width:251px;
-     line-height: 11px;
+     left: 40px ;
+     top:390px;
+     font-size: 4px;
+     width:120px;
+     line-height: 6px;
      }
     .content_body-extra2
      {
-     left: 67px ;
-     top:870px;
-     font-size: 8px;
-     width:251px;
-     line-height: 11px;
+     left: 40px ;
+     top:445px;
+     font-size: 4px;
+     width:120px;
+     line-height: 6px;
      }
     .content_footer-main
      {
-     left: 183px ;
-     top: 1030px;
-     font-size: 27px;
+     left: 110px ;
+     top: 500px;
+     font-size: 10px;
      }
     .content_footer-extra
      {
-     top: 1070px;
-     left: 301px;
-     font-size: 8px;
+     top: 520px;
+     left: 157px;
+     font-size: 3px;
      width:191px;
-     line-height: 11px;
+     line-height: 4px;
      }
     .content_footer-button
      {
-     top: 1099px;
-     width: 79px;
-     height: 20px;
-     left: 331px;
-     font-size: 7px;
+     top: 530px;
+     width: 40px;
+     height: 12px;
+     left: 160px;
+     font-size: 3px;
+     border: 0.5px solid #404429;
     }
 }
