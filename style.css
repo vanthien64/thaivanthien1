@@ -338,8 +338,8 @@ font-family: 'amiri';
      }
     .content_header-joyextra
      {
-     width:150px;
-     font-size: 4px;
+     width:160px;
+     font-size: 5px;
      margin-left: 40px;
      margin-top: 4px;
      }
@@ -375,10 +375,10 @@ font-family: 'amiri';
      {
      width:150px;
      top:115px;
-     font-size: 4px;
+     font-size: 5px;
      left:40px;   
      line-height: 6px;
-     text-align: justify;
+     text-align: unset;
      }
     .content_header-button
      {
@@ -386,7 +386,7 @@ font-family: 'amiri';
      height: 15px;
      left: 40px;
      top: 145px;
-     font-size: 3px;
+     font-size: 5px;
      border: 0.5px solid #404429;
     }
     .content_body-imgdrinkbeer
@@ -412,17 +412,19 @@ font-family: 'amiri';
      {
      left: 40px ;
      top:390px;
-     font-size: 4px;
+     font-size: 5px;
      width:120px;
      line-height: 6px;
+     text-align: unset;
      }
     .content_body-extra2
      {
      left: 40px ;
-     top:445px;
-     font-size: 4px;
+     top:460px;
+     font-size: 5px;
      width:120px;
      line-height: 6px;
+     text-align: unset;
      }
     .content_footer-main
      {
