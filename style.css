@@ -169,7 +169,6 @@ margin: 0;
     font-size: 14px;
     left:100px;   
     line-height: 40px;
-   letter-spacing: 1px;
    z-index: 1;
    font-family: 'Amiri', serif;
 }
@@ -222,7 +221,6 @@ font-size: 14px;
 width:500px;
 color:#b4ba98;
 line-height: 30px;
-letter-spacing: 1px;
 font-family: 'amiri';
 text-align: justify;
 }
@@ -235,7 +233,6 @@ font-size: 14px;
 width:500px;
 color:#b4ba98;
 line-height: 30px;
-letter-spacing: 1.1px;
 text-align: justify;
 font-family: 'Amiri', serif;
 }
